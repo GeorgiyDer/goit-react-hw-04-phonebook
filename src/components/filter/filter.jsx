@@ -9,8 +9,8 @@ const Filter = ({value, onFilter}) => (
 )
 
 Filter.propTypes = {
-    value: PropTypes.string,
-    onFilter: PropTypes.func,
+    value: PropTypes.string.isRequired,
+    onFilter: PropTypes.func.isRequired,
 };
 
 export default Filter;
